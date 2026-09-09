@@ -1,0 +1,40 @@
+{:paths ["src"]
+ :deps {
+        io.github.kotoba-lang/set-difference
+        {:git/url "https://github.com/kotoba-lang/set-difference.git"
+         :git/sha "8d0dd29f9f9d542f835521a492b575e7c36ba76d"}
+        io.github.kotoba-lang/set-index
+        {:git/url "https://github.com/kotoba-lang/set-index.git"
+         :git/sha "a8a1d2c019677422d08fd63578dbe85e6f343ff1"}
+        io.github.kotoba-lang/set-intersection
+        {:git/url "https://github.com/kotoba-lang/set-intersection.git"
+         :git/sha "dc3a39d774f26885da6de439c9bf56da25b6da34"}
+        io.github.kotoba-lang/set-join
+        {:git/url "https://github.com/kotoba-lang/set-join.git"
+         :git/sha "6575f8c72341e6404606a6ae7f81c0f7505376fd"}
+        io.github.kotoba-lang/set-project
+        {:git/url "https://github.com/kotoba-lang/set-project.git"
+         :git/sha "48ede30a95f9d507070a44570b700dd8250989c6"}
+        io.github.kotoba-lang/set-rename
+        {:git/url "https://github.com/kotoba-lang/set-rename.git"
+         :git/sha "ba131bd18b09d575a79b9ba2073ef936505085e6"}
+        io.github.kotoba-lang/set-rename-keys
+        {:git/url "https://github.com/kotoba-lang/set-rename-keys.git"
+         :git/sha "4ef29bc8dc5ba504db7cc007bde2d47ba692e15e"}
+        io.github.kotoba-lang/set-select
+        {:git/url "https://github.com/kotoba-lang/set-select.git"
+         :git/sha "54114d4f47625f16a6c4631c3aa6b3d0a522a82a"}
+        io.github.kotoba-lang/set-subset
+        {:git/url "https://github.com/kotoba-lang/set-subset.git"
+         :git/sha "90b9d54d2f719666fa6e1d089d0a3b6f624db28c"}
+        io.github.kotoba-lang/set-superset
+        {:git/url "https://github.com/kotoba-lang/set-superset.git"
+         :git/sha "2d1d3d7a3bac90b5dc9b652f4b8a22d57eb54d7b"}
+        io.github.kotoba-lang/set-union
+        {:git/url "https://github.com/kotoba-lang/set-union.git"
+         :git/sha "0e14c5f953cd4243ce2e78f763a1a378df5ff223"}}
+ :aliases
+ {:test {:extra-paths ["test"]
+         :extra-deps {io.github.cognitect-labs/test-runner
+                      {:git/tag "v0.5.1" :git/sha "dfb30dd"}}
+         :main-opts ["-m" "cognitect.test-runner"]}}}
